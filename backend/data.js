@@ -40,7 +40,6 @@ const data = {
       description: "high quality product",
     },
     {
-      _id: "3",
       name: "Butternut",
       category: "Vegetables",
       image: "/images/p3.jpg",
