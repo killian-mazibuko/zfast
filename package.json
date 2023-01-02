@@ -5,7 +5,7 @@
   "description": "ECommerce Website",
   "main": "index.js",
   "scripts": {
-    "build": "sudo chown -R $USER /usr/local/lib/node_modules && cd frontend && npm install && npm run build",
+    "build": "cd frontend && npm install && npm run build",
     "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
   },
   "author": "",
