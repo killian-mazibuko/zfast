@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 mongoose.connect(
-  "mongodb+srv://ktmazibuko:DBDesign20$@cluster0.qfpxv.azure.mongodb.net/zifast?retryWrites=true&w=majority",
+  "mongodb+srv://ktmazibuko:DBDesign20$@cluster0.qfpxv.azure.mongodb.net/?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
